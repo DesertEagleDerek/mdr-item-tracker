@@ -19,7 +19,7 @@ body {
 #tracker .item[class*="active"] { opacity: 1; }
 #tracker .item[class*="active-0"] { opacity: .25; }
 
-.pulse_radar { background-image: url(images/64/pulse_radar.png); margin-left: 5px; }
+.pulse_radar { background-image: url(images/64/pulse_radar.png); margin-left: 4px; }
 .phantom_cloak { background-image: url(images/64/phantom_cloak.png); }
 .flash_shift { background-image: url(images/64/flash_shift.png); }
 
