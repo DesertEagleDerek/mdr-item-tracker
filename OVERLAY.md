@@ -28,7 +28,7 @@ Manually size the tracker window to roughly the perfect size and then use a colo
 
 #### Method 2
 
-Perfectly resize the window with a script. This is the better option but seems to require more effort initially. I've prodived a `window.ahk` script to help move and resize the window and then copy the X,Y,W,H values to the clipboard, ready to paste into the `resize.ahk` script.
+Perfectly resize the window with a script. This is the better option but seems to require more effort initially. I've provided a `window.ahk` script to help move and resize the window and then copy the X,Y,W,H values to the clipboard, ready to paste into the `resize.ahk` script.
 
 ## Setting up the sources
 
