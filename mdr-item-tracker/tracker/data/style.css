@@ -1,0 +1,56 @@
+body {
+  margin: 0px;
+  background-color: #ff00ff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+* { box-sizing: border-box; }
+
+.row:before,
+.row:after { content: " "; display: table; }
+.row:after { clear: both; }
+.cell { position: relative; float: left; }
+
+#app { width: 1560px; height: 64px; background-color: #141F33; }
+
+#tracker .item { width: 64px; height: 64px; }
+#tracker .item { opacity: .10; }
+#tracker .item[class*="active"] { opacity: 1; }
+#tracker .item[class*="active-0"] { opacity: .25; }
+
+.pulse_radar { background-image: url(images/64/pulse_radar.png); margin-left: 5px; }
+.phantom_cloak { background-image: url(images/64/phantom_cloak.png); }
+.flash_shift { background-image: url(images/64/flash_shift.png); }
+
+.wide_beam { background-image: url(images/64/wide_beam.png); }
+.plasma_beam { background-image: url(images/64/plasma_beam.png); }
+.wave_beam { background-image: url(images/64/wave_beam.png); }
+
+.charge_beam { background-image: url(images/64/charge_beam.png); }
+.diffusion_beam { background-image: url(images/64/diffusion_beam.png); }
+
+.super_missile { background-image: url(images/64/super_missile.png); }
+.ice_missile { background-image: url(images/64/ice_missile.png); }
+.storm_missile { background-image: url(images/64/storm_missile.png); }
+
+.spider_magnet { background-image: url(images/64/spider_magnet.png); }
+.grapple_beam { background-image: url(images/64/grapple_beam.png); }
+
+.varia_suit { background-image: url(images/64/varia_suit.png); }
+.gravity_suit { background-image: url(images/64/gravity_suit.png); }
+
+.morph_ball { background-image: url(images/64/morph_ball.png); }
+.bomb { background-image: url(images/64/bomb.png); }
+.cross_bomb { background-image: url(images/64/cross_bomb.png); }
+
+.speed_booster { background-image: url(images/64/speed_booster.png); }
+
+.spin_boost { background-image: url(images/64/spin_boost.png); }
+.space_jump { background-image: url(images/64/space_jump.png); }
+
+.screw_attack { background-image: url(images/64/screw_attack.png); }
+
+.power_bomb { background-image: url(images/64/power_bomb.png); }
+
+.ship { background-image: url(images/64/ship.png); margin-left: 8px; }
