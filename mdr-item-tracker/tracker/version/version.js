@@ -1,6 +1,6 @@
 (function(window) {
     'use strict';
 	
-	window.version = "v1.0.0";
+	window.version = "v1.1.0";
 
 }(window));

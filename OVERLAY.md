@@ -28,7 +28,7 @@ Manually size the tracker window to roughly the perfect size and then use a colo
 
 #### Method 2
 
-Perfectly resize the window with a script. This is the better option but seems to require more effort initially. I've provided a `window.ahk` script to help move and resize the window and then copy the X,Y,W,H values to the clipboard, ready to paste into the `resize.ahk` script.
+Perfectly resize the window with a script. This is the better option but seems to require more effort initially. I've prodived a `window.ahk` script to help move and resize the window and then copy the X,Y,W,H values to the clipboard, ready to paste into the `resize.ahk` script.
 
 ## Setting up the sources
 
@@ -95,4 +95,6 @@ Press Esc key to quit the script. Paste your tracker window value into the `resi
 
 The tracker and overlay should be grouped in order for them to display as intended. After locking both of the sources you can move the group without disturbing the size and position values. My canvas is set to 1920x1080 pixels. If your canvas is a different size then you might need to scale the group and center it afterwards. Right click on your group and then go to `Transform > Center Horizontally` to properly align it.
 
-This overlay is not compatible with the double row variant, only the normal sized tracker. The double row variant wasn't intended to be used in a video capture session, it's for people who have trouble seeing the smaller icons and don't care about recording or streaming their runs.
+The overlay graphic was designed for the regular sized tracker. It's not compatible with the double row, quad row, or vertical variants.
+
+The double row variant wasn't intended to be used in a video capture session, it's for people who have trouble seeing the smaller icons and don't care about recording or streaming their runs. It has not been tested with any video capture software.

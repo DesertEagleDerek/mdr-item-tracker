@@ -5,6 +5,7 @@
 	  <link rel="shortcut icon" href="data/s.png" type="image/png" />
 	  <script src="version/version.js"></script>
 	  <script src="data/items.js"></script>
+	  <script src="data/counters.js"></script>
 	  <script src="data/tracker.js"></script>
 	</head>
 	<body>
@@ -12,7 +13,7 @@
 			<div id="tracker" class="cell">
 				<div class="row">
 					<div class="cell">
-						<div class="row">
+						<div class="row row-main">
 							<div class="cell"><div class="item pulse_radar" onclick="toggle('pulse_radar')" oncontextmenu="toggle('pulse_radar')"></div></div>
 							<div class="cell"><div class="item phantom_cloak" onclick="toggle('phantom_cloak')" oncontextmenu="toggle('phantom_cloak')"></div></div>
 							<div class="cell"><div class="item flash_shift" onclick="toggle('flash_shift')" oncontextmenu="toggle('flash_shift')"></div></div>
@@ -47,7 +48,7 @@
 							
 							<div class="cell"><div class="item power_bomb" onclick="toggle('power_bomb')" oncontextmenu="toggle('power_bomb')"></div></div>
 							
-							<div class="cell"><div class="item ship" onclick="toggle('ship')" oncontextmenu="toggle('ship')"></div></div>
+							<div class="cell"><div class="item-counter metroid_dna" onclick="countUp('metroid_dna')" oncontextmenu="countDown('metroid_dna')"><div id="metroid_dna" class="counter">0</div></div></div>
 						</div>
 					</div>
 				</div>
@@ -55,7 +56,7 @@
 		</div>
 
 		<script>
-			set_version(true);
+			set_version(1);
 			start();
 		</script>
 		

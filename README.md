@@ -6,15 +6,23 @@ Track your item pickups during Metroid Dread Randomizer runs.
 
 It's a heavily cut down version of the ALTTP randomizer [Item Tracker](https://github.com/crossproduct42/alttprandohelper) by CrossProduct & HalfARebel, adapted for use during randomizer runs on Metroid Dread. Almost all of their code was removed, except basic item pickup logic.
 
-Icons were extracted from [Open Dread Rando](https://github.com/randovania/open-dread-rando) and scaled to 64x64 pixels. The original 128x128 pixel icons have also been included for use with a double row variant of the tracker. Open Dread Rando is part of [Randovania](https://github.com/randovania/randovania).
+Icons were extracted from [Open Dread Rando](https://github.com/randovania/open-dread-rando) and scaled to 64x64 pixels. The original 128x128 pixel icons have also been included for use with a larger double row variant of the tracker. Open Dread Rando is part of [Randovania](https://github.com/randovania/randovania).
 
-## What does it look like?
+## Regular: Single Row
 
-![alt text](images/tracker.png "Tracker")
+![alt text](images/tracker.png "Tracker: Regular: Single Row")
 
-## What about the double row variant?
+## Large: Double Row
 
-![alt text](images/tracker_large.png "Tracker: Large")
+![alt text](images/tracker_large.png "Tracker: Large: Double Row")
+
+## Regular: Quad Row
+
+![alt text](images/tracker_quad.png "Tracker: Regular: Quad Row")
+
+## Regular: Vertical
+
+![alt text](images/tracker_vertical.png "Tracker: Regular: Vertical")
 
 ## Requirements
 
@@ -27,21 +35,33 @@ The tracker launches in a large window and after a short delay, the resize scrip
 
 ## How to launch
 
-#### Normal sized tracker
+#### Regular: Single Row
 Run the `MDR_Item_Tracker.bat` file.
 
-#### Double row variant
+#### Large: Double Row
 Run the `MDR_Item_Tracker_Large.bat` file.
+
+#### Regular: Quad Row
+Run the `MDR_Item_Tracker_Quad.bat` file.
+
+#### Regular: Vertical
+Run the `MDR_Item_Tracker_Vertical.bat` file.
 
 ## Overlay graphic
 
-There's an extra graphic in the overlay folder if you want the tracker to match Metroid Dread's UI while recording or streaming. This is only for the normal sized tracker and not the double row variant. You can read more about this and how to set it up on the [overlay help page](OVERLAY.md).
+There's an extra graphic in the overlay folder if you want the tracker to match Metroid Dread's UI while recording or streaming. This is only for the regular sized tracker and not the other variants. You can read more about this and how to set it up on the [overlay help page](OVERLAY.md).
 
 ## Notes
+
+Click items to toggle them. Left click the Metroid DNA counter to increase it and right click to decrease it.
 
 Change the X,Y,W,H values in the resize script to customise the position or size after launching. There is another script included called `window.ahk` that can help you do this with pixel perfect accuracy, using your arrow keys.
 
 Pulse radar is automatically toggled by default. You can add more auto toggles in the `data\tracker.js` file.
+
+## History
+
+[View the project history](HISTORY.md)
 
 ## Contact
 

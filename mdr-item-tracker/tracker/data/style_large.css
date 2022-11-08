@@ -12,12 +12,16 @@ body {
 .row:after { clear: both; }
 .cell { position: relative; float: left; }
 
+.row-main { margin-left: 8px; }
+
 #app { width: 1560px; height: 256px; background-color: #141F33; }
 
 #tracker .item { width: 128px; height: 128px; }
 #tracker .item { opacity: .10; }
 #tracker .item[class*="active"] { opacity: 1; }
-#tracker .item[class*="active-0"] { opacity: .25; }
+
+#tracker .item-counter { width: 128px; height: 128px; }
+#tracker .item-counter { opacity: 1; }
 
 .pulse_radar { background-image: url(images/128/pulse_radar.png); margin-left: 4px; }
 .phantom_cloak { background-image: url(images/128/phantom_cloak.png); }
@@ -54,3 +58,8 @@ body {
 .power_bomb { background-image: url(images/128/power_bomb.png); }
 
 .ship { background-image: url(images/128/ship.png); margin-left: 0px; }
+
+.metroid_dna { background-image: url(images/128/metroid_dna.png); }
+
+.counter { width: 128px; height: 128px; color: white; text-align: center; line-height: 128px; vertical-align: middle; pointer-events: none; user-select: none; }
+.counter { font-family: 'Roboto Mono'; font-size: 3em; }

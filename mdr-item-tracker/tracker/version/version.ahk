@@ -1,1 +1,1 @@
-global TrackerVersion := "v1.0.0"
+global TrackerVersion := "v1.1.0"
