@@ -1,8 +1,19 @@
 (function(window) {
     'use strict';
 
+    const toTitleCase = (phrase) => {
+      return phrase
+            .split('_')
+            .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(' ');
+    };
+
     window.start = function() {
-		toggle('pulse_radar');
+      toggle('pulse_radar');
+      for (var item_name in window.items) {
+        var element = document.getElementsByClassName(item_name)[0];
+        element.title = toTitleCase(item_name);
+      }
     };
 
     window.toggle = function(label) {
