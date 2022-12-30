@@ -58,8 +58,6 @@ body {
 
 .power_bomb { background-image: url(images/64/power_bomb.png); }
 
-.ship { background-image: url(images/64/ship.png); margin-left: 0px; }
-
 .metroid_dna { background-image: url(images/64/metroid_dna.png); }
 
 .counter { width: 64px; height: 64px; color: white; text-align: center; line-height: 64px; vertical-align: middle; pointer-events: none; user-select: none; }

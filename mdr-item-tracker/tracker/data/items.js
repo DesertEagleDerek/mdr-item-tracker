@@ -36,6 +36,6 @@
 		
 		power_bomb: false,
 		
-		ship: false,
+		metroid_DNA: false,
     };
 }(window));
